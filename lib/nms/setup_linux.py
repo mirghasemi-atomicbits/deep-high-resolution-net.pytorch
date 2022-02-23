@@ -33,8 +33,8 @@ def locate_cuda():
     """
     
     
-    home = "/usr/local/cuda-11.4"
-    nvcc = "/usr/local/cuda-11.4/bin/nvcc"
+    home = /usr/local/cuda-11.6
+    nvcc = /usr/local/cuda-11.6/bin/nvcc
 
     cudaconfig = {'home':home, 'nvcc':nvcc,
                   'include': pjoin(home, 'include'),
